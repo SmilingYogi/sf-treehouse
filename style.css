@@ -1,0 +1,411 @@
+body
+{
+	font-family: 'Varela Round', sans-serif;
+	padding:0;
+	margin:0;
+}
+#topbar
+{
+	position:fixed;
+	width:100%;
+	height:70px;
+	background:#fff;
+	top:0;
+	left:0;
+	right:0;
+	z-index:500;
+}
+.navbar
+{
+	margin:0 auto;
+	max-width:1200;
+}
+@media screen and (min-width: 960px)
+{
+	.navbar
+	{
+		padding:0 30px;
+	}
+}
+.nav
+{
+	list-style:none;
+	color:#576366;
+	font-weight:500;
+}
+.nav:hover
+{
+	color:#4B5658;
+}
+.nav-item
+{
+	display:inline-block;
+	vertical-align:middle;
+
+}
+
+@media screen and (min-width:960px)
+{
+	.nav-item
+	{
+		margin-right:30px;
+	}
+}
+@media screen and (min-width:1660px)
+{
+	.logo
+	{
+		margin-right:1000px;
+	}
+}
+.no-underline-freetrial
+{
+	text-decoration:none;
+	color:#5fcf80;
+}
+.no-underline
+{
+	text-decoration:none;
+	color:#576366;
+}
+.firstdiv
+{
+	background-image:url(https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-86e988fc10618a6d2b743327d67eeca3b0396f9720d94c35bbff8cd217de96d1.jpg);
+	background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:760px;
+}
+.homediv
+{
+	padding:100px 2vw 20px 10vw;
+	height:620px;
+}
+.homeleft
+{
+	display:inline-block;
+	vertical-align:top;
+	width:40vw;
+	height:550px;
+	margin-right:5px;	
+}
+
+.lefttext
+{
+	margin:auto;
+	padding-top: 30%;
+}
+.hometext
+{
+	color:#ffffff;
+	margin:auto;
+	text-align:justify;
+}
+.homeright
+{
+	display:inline-block;
+	width:45vw;
+	height:550px;
+	padding:0;
+}
+.homebottom
+{
+	width:70vw;
+	padding-top:20px;
+	align-content: center;
+	margin:auto;
+	color:#fff;
+	font-size:1.2em;
+}
+.bold
+{
+	font-size:2em;
+}
+.spacer
+{
+	margin-right:4vw;
+}
+.middle-features
+{
+	background:#F9FAFA url(https://static.teamtreehouse.com/assets/views/marketing/home/homepage-texture-34e7c496750ff276b021f3b2b83238c3177c2c30564885d11d181c4e795a844b.png) top/contain no-repeat;
+	height:1370px;
+	margin:0;
+	width:100%;
+}
+.middleleft
+{
+	display:inline-block;
+	vertical-align:top;
+	width:50vw;
+	max-width:750px;
+	height:550px;
+	margin-right:30px;
+}
+.middleright
+{
+	display:inline-block;
+	width:30vw;
+	height:550px;
+	padding:0;
+
+}
+
+.form
+{
+	background: white;
+	color: #40484a;
+	font-size: 25px;
+	display: inline;
+	float:left;
+	border-radius: 5px;
+	width:75%;
+}
+
+.formtitle
+{
+	background-color: #edeff0;
+	text-align: center;
+	padding: 20px;
+	font-size: 18px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.form1
+{
+	width: 49%;
+	float: left;
+}
+
+.form2
+{
+	width: 49%;
+	float: right;
+}
+form
+{
+	font-weight: bold;
+	padding: 40px;
+	font-size: 17px;
+}
+
+.formtext
+{
+	padding: .75px 0px;
+	margin-bottom: 30px;
+	width: 100%;
+	height: 40px;
+	background-color: #f9fafa;
+	border: 2px solid #d4d9dd;
+	border-radius: 4px;
+}
+.submittext
+{
+	font: 20px Varela Round;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 55px;
+	background-color: #387bab;
+	border-color: #387bab;
+	border-style: solid;
+	border-radius: 8px;
+	color: white;
+}
+@media screen and (max-width:1000px)
+{
+	.homeright
+	{
+		display:none;
+	}
+}
+.svg
+{
+	position:absolute; 
+	top:1050px;
+}
+@media screen and (max-width:1000px)
+{
+	.svg
+	{
+		display:none;
+	}
+}
+.border-mid
+{
+	border-bottom:solid 1px #d4d9dd ;
+}
+.mleft
+{
+	display:inline-block;
+	vertical-align:top;
+	width:40vw;
+	height:550px;
+	margin-right:30px;
+}
+.mright
+{
+	display:inline-block;
+	width:40vw;
+	height:550px;
+	padding:0;
+}
+.mimage
+{
+	max-width:300px;
+	!margin:auto;
+	align-content:center;
+}
+.partnerships
+{
+	width:100%;
+	height:300px;
+}
+.parthead
+{
+	font-size:2rem;
+	text-align:center;
+	font-weight:normal;
+	font-kerning:auto;
+	color:#384047;
+}
+.plogos
+{
+	margin:auto;
+	max-width:1200px;
+}
+.plogo
+{
+	display:inline-block;
+	max-width:250px;
+	padding:1.5rem;
+}
+.chalcont
+{
+	width:100%;
+	height:350px;
+	padding:80px 0 100px 0;
+	align-content:center;
+	align-items:center;
+	background:url(https://static.teamtreehouse.com/assets/views/marketing/home/100-days-of-code-bg-6a72c1d4f2463649cb391a19550e64547823af2849917fa640d3e515900175d3.jpg) center/cover no-repeat;
+}
+.chalhead
+{
+	text-align:center;
+	font-size:2.25rem;
+	color:#FFFFFF;
+}
+.chaltext
+{
+	text-align:center;
+	font-size:1.25rem;
+	color:#FFFFFF;
+	padding:10px 0 10px 0;
+}
+.greenbutton
+{
+	position:relative;
+	left:45vw;
+	border:solid 2px #5fcf80;
+	background:#5fcf80;
+	padding: 1rem 1.5rem;
+	text-align:center;
+	color:#FFFFFF;
+	border-radius: 7px;
+	font-size:1.25rem;
+}
+.greenbutton:hover
+{
+	border:solid 2px #34AD58;
+	background:#34AD58;
+}
+.globalfooter
+{
+	background-image:url("https://static.teamtreehouse.com/assets/marketing/landings/tracks_fullimg-a5ed73ac6c2fd81a3d4e4bc652f76d50cbccb4272dfe3cca1cb00067694896ba.png");
+	background-color: #ed5a5a;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: fixed;
+    bottom: 0px;
+    top: initial;
+    left: 0px;
+    right: 0px;
+    height:80px;
+    width:100%;
+    display:flex;
+    align-items:center;
+}
+.footertext
+{
+	margin-left:35vw;
+	vertical-align:center; 
+	color:#FFFFFF;
+}
+.whitebutton
+{
+	border:solid 1px #FFFFFF;
+	margin-left:20px;
+	background:#FFFFFF;
+	padding: 0.25rem 1.5rem;
+	text-align:center;
+	color:#384047;
+	border-radius: 5px;
+	font-size:1.25rem;
+}
+.footer
+{
+	color:#576366;
+	width:100%;
+	padding:3rem 0 5rem 0;
+}
+.footcontent
+{
+	max-width:1300px;
+	margin:auto;
+}
+.footbig
+{
+	width:28%;
+	display:inline-block;
+	vertical-align:top;
+}
+.footsmall
+{
+	width:18%;
+	display:inline-block;
+}
+.fa 
+{
+	padding: 10px;
+	font-size: 15px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px 2px;
+	border-radius: 50%;
+	background:#2d3339;
+	color:white;
+}
+
+.fa:hover 
+{
+    background:#84D99E;
+}
+.fa-facebook 
+{
+	color: white;
+}
+.fa-instagram 
+{
+   color: white;
+}
+.fa-twitter 
+{
+    color: white;
+}
+.fa-youtube
+{
+	color:white;
+}
+.fa-linkedin
+{
+	color:white;
+}
